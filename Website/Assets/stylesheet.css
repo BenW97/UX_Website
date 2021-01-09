@@ -1,0 +1,259 @@
+
+/* Page Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #282828;
+    width: 100%;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+/* Section Styles */
+
+section {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    min-height:100%;
+    padding-bottom: 100px;
+}
+
+.section-container {
+    margin: auto;
+    position: relative;
+    max-width: 1920px;
+}
+
+.row:after {
+    box-sizing: border-box;
+    align-items: center;
+    content: "";
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+}
+
+.column-25 {
+    padding:15px;
+    float: left;
+    position: relative;
+    flex-grow: 2.5;
+    min-height: 150px;
+    min-width: 250px;
+}
+
+.column-33 {
+    padding:15px;
+    float: left;
+    position: relative;
+    flex-grow: 3.33;
+    min-height:150px;
+    min-width: 300px;
+}
+
+.column-50 {
+    padding:15px;
+    float: left;
+    flex-grow: 5;
+    min-height: 150px;
+    min-width: 300px;
+}
+
+.column-66 {
+    padding:15px;
+    float: left;
+    flex-grow: 6.66;
+    min-height: 150px;
+    min-width: 300px;
+}
+
+.column-75 {
+    padding:15px;
+    float: left;
+    flex-grow: 7.5;
+    min-height: 150px;
+    min-width: 300px;
+}
+
+.column-text-25 {
+  padding:15px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  position: relative;
+  flex-grow: 2.5;
+  max-width: 25%;
+  min-height: 150px;
+  min-width: 250px;
+}
+
+.column-text-33 {
+  padding:15px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  position: relative;
+  flex-grow: 3.33;
+  max-width: 33.33%;
+  min-height:150px;
+  min-width: 300px;
+}
+
+.column-text-50 {
+  padding:15px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  flex-grow: 5;
+  max-width: 50%;
+  min-height: 150px;
+  min-width: 300px;
+}
+
+.column-text-66 {
+  padding:15px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  flex-grow: 6.66;
+  max-width: 66.66%;
+  min-height: 150px;
+  min-width: 300px;
+}
+
+.column-text-75 {
+  padding:15px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  flex-grow: 7.5;
+  max-width: 75%;
+  min-height: 150px;
+  min-width: 300px;
+}
+
+.column-text-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.column-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    transition: transform .2s;
+}
+
+.column-container:hover {
+    -ms-transform: translate(0px, 2px);
+    -webkit-transform: translate(0px, 2px);
+    transform: translate(0px, 2px);
+}
+
+.column-footer {
+    width: 100%;
+    min-height: 20px;
+    position: absolute;
+    bottom: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+
+
+/* Footer Styles */
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.footer-content {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    max-width: 1920px;
+}
+
+/* Text Styles */
+
+.text-white {
+    color: white;
+}
+
+
+
+/* Bootstrap Background Color Overrides */
+
+.bg-dark {
+    background-color:#282828 !important;
+  }
+
+.bg-primary {
+    background-color: rgb(228, 0, 135) !important;
+}
+
+.bg-secondary {
+    background-color:#00aef0 !important;
+}
+
+/* Bootstrap Override Styles */
+
+  .navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link:focus {
+    color:#00aef0;
+  }
+
+  .navbar-dark .navbar-text a,
+  .navbar-dark .navbar-text a:hover,
+  .navbar-dark .navbar-text a:focus {
+    color: #00aef0;
+  }
+
+  .navbar-dark .navbar-nav .active>.nav-link,
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link.show,
+  .navbar-dark .navbar-nav .show>.nav-link {
+    color: #00aef0;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #1e2125;
+  background-color: #f8f9fa;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #00aef0;
+}
