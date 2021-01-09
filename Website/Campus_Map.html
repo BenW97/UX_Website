@@ -85,16 +85,53 @@
         </header>
 
         <section>
+        <div id="map-modal" class="modal-container">
+            <div class="modal-content">
+
+                <span class="close">&times;</span>
+            </div>
+        </div>
         <div class= section-container>
             <div class="section-banner">
                 <h2 class="banner-text"> Campus Map </h2>
+                <a id="map-help" href="#"><img class="help" src="Assets/help icon.png"></a>
             </div>
+            <script>
+                var modal = document.getElementById("map-modal");
+                var btn = document.getElementById("map-help");
+                var span = document.getElementsByClassName("close")[0];
+
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                }
+
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+
+            </script>
             <div id="map-container">
-                <div id="map-banner" class="bg-primary">
+                <div id="map-banner" class="bg-dark">
                     <form class="form-inline">
-                        <input class="page-searchbar"" placeholder="Search">
-                        <a> </a>
+                        <input id="page-searchbar"" placeholder="Search">
                     </form>
+                    <div id="map-categories">
+                        <a>Getting Here</a>
+                        <a>Around Campus</a>
+                        <a>Campus Facilities</a>
+                        <a>Academic Departments</a>
+                        <a>Academic Facilities</a>
+                        <a>Accommodation</a>
+                        <a>PC Availability</a>
+                        <a>Sculpture Trail</a>
+                        <a>Accessibility</a>
+                    </div>
                 </div>
                 <div id="map-content">
                 </div>
