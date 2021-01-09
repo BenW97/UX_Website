@@ -204,7 +204,11 @@ section {
 }
 
 #map-content {
+  width: 100%;
+}
 
+#map-image {
+  width: 100%;
 }
 
 
@@ -224,7 +228,6 @@ footer {
 }
 
 #topBtn {
-  display: none;
   background-color: transparent;
   color:#fff;
   text-align: center;

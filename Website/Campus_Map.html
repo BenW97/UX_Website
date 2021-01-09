@@ -102,46 +102,17 @@
                                         <input class="page-searchbar" placeholder="Search">
                                         <a class="nav-link" href="#">Search</a>
                                     </form>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Useful Locations
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">My Wellbeing</a>
-                                        <a class="dropdown-item" href="#">Student Support</a>
-                                        <a class="dropdown-item" href="#">Explore Library</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
                     </nav>
                 </div>
                 <div id="map-content">
-
+                    <img id="map-image" src="Assets/map.png">
                 </div>
             </div>
         </div>
         </section>
 
         <footer class="bg-dark">
-            <button onclick="topFunction()" id="topBtn"><h8>Go To Top</h8></button>
-            <script>
-                button = document.getElementById("topBtn");
-
-                function scrollFunction() {
-                    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                        button.style.display = "block";
-                    } else {
-                        button.style.display = "none";
-                    }
-                }
-                
-                function topFunction() {
-                    document.body.scrollTop = 0;
-                    document.documentElement.scrollTop = 0;
-                }
-            </script>
+            <button onclick="topFunction()" id="topBtn"><h8>Back to top</h8></button>
             <div class="footer-content">
                 <h8 class="text-white ">&copy UEA. All rights reserved. University of East Anglia, Norwich Research Park, Norwich, Norfolk, NR4 7TJ, UK | +44 (0) 1603 456161</h8>
                 <p></p>
