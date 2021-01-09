@@ -187,6 +187,26 @@ section {
     padding: 10px;
 }
 
+/* Campus Map Styles */
+
+#map-container {
+  position: relative
+}
+
+#map-banner {
+  position: relative;
+  width: 100%;
+
+}
+
+.page-searchbar {
+  width: 100%;
+}
+
+#map-content {
+
+}
+
 
 /* Footer Styles */
 
@@ -197,16 +217,34 @@ footer {
 }
 
 .footer-content {
-    padding: 10px;
+    padding: 0.5rem;
     margin: auto;
     text-align: center;
     max-width: 1920px;
 }
 
+#topBtn {
+  display: none;
+  background-color: transparent;
+  color:#fff;
+  text-align: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  padding: 0.5rem;
+
+}
+
+#topBtn:hover {
+  background-color: #333333;
+  color: rgb(228, 0, 135);
+}
+
 /* Text Styles */
 
 .text-white {
-    color: white;
+  color:#fff;
 }
 
 
@@ -216,6 +254,10 @@ footer {
 .bg-dark {
     background-color:#282828 !important;
   }
+
+.bg-light {
+  background-color: lightgray !important;
+}
 
 .bg-primary {
     background-color: rgb(228, 0, 135) !important;
@@ -249,11 +291,32 @@ footer {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #1e2125;
-  background-color: #f8f9fa;
+  color: #282828;
+  background-color: #00aef0;
 }
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+  color: #282828;
   text-decoration: none;
   background-color: #00aef0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:#282828;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color:rgb(228, 0, 135);
+}
+
+.navbar-light .navbar-text a,
+.navbar-light .navbar-text a:hover,
+.navbar-light .navbar-text a:focus {
+  color: rgb(228, 0, 135);
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: rgb(228, 0, 135);
 }
