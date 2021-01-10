@@ -15,6 +15,10 @@ body {
     width: 100%;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .page-container {
   position: relative;
   min-height: 100vh;
@@ -40,7 +44,7 @@ section {
     margin: auto;
     padding: 20px;
     min-height:100%;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .section-container {
@@ -65,7 +69,7 @@ section {
 
 .row:after {
     box-sizing: border-box;
-    align-items: center;
+    justify-content: center;
     content: "";
     display: flex;
     flex-wrap: wrap;
@@ -79,6 +83,9 @@ section {
     flex-grow: 2.5;
     min-height: 150px;
     min-width: 250px;
+    max-width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column-33 {
@@ -88,6 +95,9 @@ section {
     flex-grow: 3.33;
     min-height:150px;
     min-width: 300px;
+    max-width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column-50 {
@@ -96,6 +106,9 @@ section {
     flex-grow: 5;
     min-height: 150px;
     min-width: 300px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column-66 {
@@ -104,6 +117,9 @@ section {
     flex-grow: 6.66;
     min-height: 150px;
     min-width: 300px;
+    max-width: 66.66%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column-75 {
@@ -112,6 +128,19 @@ section {
     flex-grow: 7.5;
     min-height: 150px;
     min-width: 300px;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column-100 {
+    padding:15px;
+    float: left;
+    flex-grow: 10;
+    width: 100%;
+    min-height:150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column-text-25 {
@@ -122,7 +151,6 @@ section {
   position: relative;
   flex-grow: 2.5;
   max-width: 25%;
-  min-height: 150px;
   min-width: 250px;
 }
 
@@ -134,7 +162,6 @@ section {
   position: relative;
   flex-grow: 3.33;
   max-width: 33.33%;
-  min-height:150px;
   min-width: 300px;
 }
 
@@ -145,7 +172,6 @@ section {
   float: left;
   flex-grow: 5;
   max-width: 50%;
-  min-height: 150px;
   min-width: 300px;
 }
 
@@ -156,7 +182,6 @@ section {
   float: left;
   flex-grow: 6.66;
   max-width: 66.66%;
-  min-height: 150px;
   min-width: 300px;
 }
 
@@ -167,22 +192,33 @@ section {
   float: left;
   flex-grow: 7.5;
   max-width: 75%;
-  min-height: 150px;
   min-width: 300px;
 }
 
-.column-text-container {
+.column-text-100 {
+  padding:15px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  flex-grow: 10;
+}
+
+.column-container-text {
     width: 100%;
     height: 100%;
-    position: relative;
+    padding: 10px;
+    overflow-wrap: break-word;
+
 }
 
 .column-container {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     border-radius: 10px;
     position: relative;
+    text-decoration: none;
     transition: transform .2s;
+    
 }
 
 .column-container:hover {
@@ -193,12 +229,78 @@ section {
 
 .column-footer {
     width: 100%;
-    min-height: 20px;
-    position: absolute;
+    min-height: 4.2em;
     bottom: 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 10px;
+    position: relative;
+    margin: auto;
+}
+
+/* Home Styles */
+
+.column-nav-25 {
+  padding: 5px;
+  float: left;
+  position: relative;
+  flex-grow: 2.5;
+  min-height: 50px;
+  min-width: 150px;
+  max-width: 25%;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-nav-container {
+  max-width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s;
+  background-color: #282828;
+  color: #fff;
+}
+
+.column-nav-container:hover {
+  color: #282828;
+  background-color: #00aef0;
+}
+
+.twitter-column {
+  padding:15px;
+  float: left;
+  flex-grow: 10;
+  width: 100%;
+  height:500px;
+}
+
+.twitter-container {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  text-decoration: none;
+  
+}
+
+#library-twitter {
+  min-width: 100%;
+  background-image: url('library\ twitter.png');
+  background-size: cover;
+  background-position: top;
+  overflow: scroll;
+}
+
+#uea-twitter {
+  min-width: 100%;
+  background-image: url('UEA\ twitter.png');
+  background-size: cover;
+  background-position: top;
+  overflow: scroll;
 }
 
 /* Campus Map Styles */
@@ -300,8 +402,14 @@ footer {
     max-width: 1920px;
 }
 
+#topBtn-container {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0%;
+}
+
 #topBtn {
-  background-color: transparent;
+  background-color:#282828;
   color:#fff;
   text-align: center;
   width: 100%;
@@ -321,6 +429,7 @@ footer {
 
 .text-white {
   color:#fff;
+  text-decoration: none;
 }
 
 /* Bootstrap Background Color Overrides */
