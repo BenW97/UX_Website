@@ -82,7 +82,7 @@ section {
     position: relative;
     flex-grow: 2.5;
     min-height: 150px;
-    min-width: 250px;
+    min-width: 200px;
     max-width: 25%;
     margin-left: auto;
     margin-right: auto;
@@ -208,7 +208,6 @@ section {
     height: 100%;
     padding: 10px;
     overflow-wrap: break-word;
-
 }
 
 .column-container {
@@ -217,6 +216,7 @@ section {
     border-radius: 10px;
     position: relative;
     text-decoration: none;
+    border: 1px solid #282828;
     transition: transform .2s;
     
 }
@@ -227,15 +227,15 @@ section {
     transform: translate(0px, 2px);
 }
 
-.column-footer {
+.column-header {
     width: 100%;
     min-height: 4.2em;
-    bottom: 0px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 10px;
     position: relative;
-    margin: auto;
+    justify-items: center;
 }
 
 /* Home Styles */
@@ -432,14 +432,23 @@ footer {
   text-decoration: none;
 }
 
+.text-dark {
+  color:#282828;
+  text-decoration: none;
+}
+
 /* Bootstrap Background Color Overrides */
 
 .bg-dark {
-    background-color:#282828 !important;
+    background-color: #282828 !important;
   }
 
 .bg-light {
   background-color: lightgray !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
 }
 
 .bg-primary {
