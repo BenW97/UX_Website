@@ -253,6 +253,7 @@ section {
   margin-right: auto;
 }
 
+
 .column-nav-container {
   max-width: 100%;
   height: 100%;
@@ -302,6 +303,37 @@ section {
   background-position: top;
   overflow: scroll;
 }
+
+
+/* report & support Styles*/
+
+.campaign-column {
+  padding:15px;
+  float: left;
+  flex-grow: 10;
+  width: 100%;
+  height:500px;
+}
+
+.campaign-container {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  text-decoration: none;
+  
+}
+
+#campaign1 {
+  min-width: 100%;
+  background-image: url('campaign1.jpeg');
+  background-size: 99%;
+  background-position: top;
+  overflow: none;
+}
+
+
+
 
 /* Campus Map Styles */
 
