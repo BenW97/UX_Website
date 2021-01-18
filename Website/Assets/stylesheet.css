@@ -187,6 +187,7 @@ section {
 
 .column-text-75 {
   padding:15px;
+  padding-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   float: left;
@@ -206,7 +207,7 @@ section {
 .column-container-text {
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 7.5px;
     overflow-wrap: break-word;
 }
 
@@ -221,15 +222,9 @@ section {
     
 }
 
-.column-container:hover {
-    -ms-transform: translate(0px, 2px);
-    -webkit-transform: translate(0px, 2px);
-    transform: translate(0px, 2px);
-}
-
 .column-header {
     width: 100%;
-    min-height: 4.2em;
+    min-height: 2em;
     top: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -258,7 +253,7 @@ section {
   max-width: 100%;
   height: 100%;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   position: relative;
   text-decoration: none;
   transition: 0.2s;
@@ -304,6 +299,23 @@ section {
   overflow: scroll;
 }
 
+#home-image {
+  min-width: 100%;
+  height: 250px;
+  background-image: url('uea-home.jpg');
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+#library-image {
+  min-width: 100%;
+  height: 250px;
+  background-image: url('uea-library.jpg');
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
 
 /* report & support Styles*/
 

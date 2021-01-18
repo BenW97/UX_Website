@@ -85,9 +85,499 @@
         </header>
 
         <section>
-        <div class="section-container">
-            <div class="section-banner">
-                <h2 class="banner-text"> UEA Libray </h2>
+            <div id="map-modal" class="modal-container">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h4> Using the Library </h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h5> Accessing the Library </h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h6> The Library is Open 24/7 </h6>
+                            <p> To enter the Library and borrow library materials you will need a campus card. </p>
+                            <p>To use IT facilities you will need an IT Account. </p>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h6> New Students </h6>
+                            <p> For new students acquiring a campus card and IT account is part of the online registration process and you will be given your campus card and IT account details at the time of registration after arriving at UEA. </p>
+                            <p> Find everything you need to know about the library on our Start your journey pages.  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h6> New Staff </h6>
+                            <p> Staff paid by and working at UEA should ensure that their signed contract of employment has been returned to UEA Human Resources. When you start working at UEA, please visit the IT Service Desk to get your campus card which will allow entry into the Library. </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h6> Campus Cards </h6>
+                            <p> Further information can be found about IT Accounts and Campus Cards from IT Services. </p>
+                        </div>
+                    </div>
+
+                    <div class="row"> 
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Opening Hours </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Information for Non-UEA Users </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Accessibility </h6>
+                            </div>
+                        </a></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h4> Resources </h4>
+                        </div>
+                    </div>
+
+                    <div class="row"> 
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Digital Resources </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Physical Resources </h6>
+                            </div>
+                        </a></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-33"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Borrowing </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> Library material can be borrowed or returned using self-service facilities. UEA also provides access to hundreds of e-books across all subjects. Information about accessing e-books.  </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-33"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Studying in the Library </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> The Library has a wide range of different study
+                                        spaces to meet different needs </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-33"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Accessibility </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> The Library recognises the diverse needs of staff and students and strives to provide an inclusive environment for all. </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-container">
+                <div class="section-banner">
+                    <h2 class="banner-text"> UEA Library </h2>
+                    <a id="map-help" href="#"><img class="help" src="Assets/help icon.png"></a>
+                    <h6>Capacity: 33 people out of 500</h6>
+                </div>
+                <script>
+                    var modal = document.getElementById("map-modal");
+                    var btn = document.getElementById("map-help");
+                    var span = document.getElementsByClassName("close")[0];
+    
+                    btn.onclick = function() {
+                        modal.style.display = "block";
+                    }
+    
+                    span.onclick = function() {
+                        modal.style.display = "none";
+                    }
+    
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+    
+                </script>
+
+            <div class="row">
+                <div class="column-75">
+                    <div class="row"> 
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Find/ Book a Study Space </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> COVID-19 Changes </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> My Account </h6>
+                            </div>
+                        </a></div>
+                    
+        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                    <h6> Make a Book/ E-Book Suggestion </h6>
+                            </div>
+                        </a></div>
+                    </div>
+
+                    <div id="library-image">
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h4> Welcome </h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h5> UEA Library is open 24/7 for essential use and individual study only</h5>
+                            <p> It is a legal requirement to wear a face covering in the Library at all times unless you are exempt.  You will need a working campus card to get in the Library. We are sorry but we cannot currently accept visitors. </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h4> Library Search </h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <form class="form-inline">
+                                <button class="library-dropdown">Category</button>
+                                <input id="library-searchbar" placeholder="Search">
+                                <button class="library-submit">Search</button>
+                            </form>
+                    </div>
+
+                    <div class="row"> 
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Books+ </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> A-Z Journals </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> A-Z Databases </h6>
+                            </div>
+                        </a></div>
+                    
+        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                    <h6> Reading Lists </h6>
+                            </div>
+                        </a></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-100"> <a href="#">
+                            <div class="column-container bg-white">
+                                <div class="column-container-text">
+                                    
+                                </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-100"> <a href="#">
+                            <div class="column-container bg-white">
+                                <div class="column-container-text">
+                                    
+                                </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> See All Results </h6>
+                            </div>
+                        </a></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h4> Contact Us </h4>
+                        </div>
+                    </div>
+                    
+                    <div class="row"> 
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Ask a Question </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Report a Problem Accessing Digital Resources </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Can't Find a Book? </h6>
+                            </div>
+                        </a></div>
+                    
+        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                    <h6> Contant You Acedemic Librarian </h6>
+                            </div>
+                        </a></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h5> By Telephone / Email </h5>
+                            <p> Telephone: 01603 592993</p>
+                            <p> Email: <a href="#">lib.helpdesk@uea.ac.uk</a></p>
+                            <p> If you need to report noise or disturbance in the Library TEXT 07824301748 and we will look into it for you.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h5> Make a request for items not held digitally by UEA Library</h5>
+                            <p> You can suggest an e-book for purchase. You can also make an interlending request and we will try to supply digital copies of journal articles or book chapters and also investigate e-book purchases. We cannot currently purchase physical books or borrow them from other libraries. </p>
+                        </div>
+                    </div>
+
+                    <div class="row"> 
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Suggest a Book/ E-Book </h6>
+                            </div>
+                        </a></div>
+                        
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Make an Interlending Request </h6>
+                            </div>
+                        </a></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <h4> About Us </h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-text-100">
+                            <p> Our purpose is to enhance the academic success of the university through timely provision of resources and services that facilitate independent learning and research success.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-33"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Strategy </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> Underpinning our support of research and learning is the library strategy </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-33"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Leadership Team </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> To lead on the delivery of the strategy, service and projects the Library has a senior leadership team</p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-33"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Charter, Policies and Regulations </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> Our service and strategic plan are underpinned by our charter, policies and regulations </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column-33"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Library Forum </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> Group advising on priorities, strategy, and operation of the Library </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-33"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Library Projects </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> The library uses projects to develop and deliver new systems, services and initiatives.</p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-33"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Library Performance </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> The Library reports to the University on our progress and performance. </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+                    </div>
+
+                </div>
+
+                <div class="column-25">
+                    <div class="row">
+                        <div class="column-100"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Digital Library </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> There are a huge number of online resources available to you from the UEA Digital Library</p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-100"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Information Technology and Computing Services </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> Please note the IT helpdesk is no longer in the Library building. </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-100"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Subject Guides </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> Here to help you find resources for your studies. </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-100"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Study Toolkits and Drop-in Support </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> The Library is here to help you develop your information skills all the way through your learning journey.  </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+
+                        <div class="column-100"><a href="#">
+                            <div class="column-container bg-white">
+                            <div>
+                                <div class="column-header bg-primary">
+                                    <h6 class="text-white"> Research and Teaching Support </h6>
+                                </div>
+                                <div class="column-container-text">
+                                    <p class="text-dark"> Intended for academic staff and postgraduate research students. </p>
+                                </div>
+                            </div>
+                            </div>
+                        </a></div>
+                    </div>
+                </div>
             </div>
         </div>
         </section>
