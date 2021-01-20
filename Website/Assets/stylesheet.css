@@ -576,3 +576,23 @@ footer {
     height:150px;    
 }
 
+#container-banner-background-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(wellbeing-background.jpeg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 20px;
+}
+
+#container-banner-background-image2 {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(Report-Support-background.jpeg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 20px;
+}
+
