@@ -323,35 +323,6 @@ section {
   padding: 10px;
 }
 
-/* report & support Styles*/
-
-.campaign-column {
-  padding:15px;
-  float: left;
-  flex-grow: 10;
-  width: 100%;
-  height:500px;
-}
-
-.campaign-container {
-  max-width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  position: relative;
-  text-decoration: none;
-  
-}
-
-#campaign1 {
-  min-width: 100%;
-  background-image: url('campaign1.jpeg');
-  background-size: 99%;
-  background-position: top;
-  overflow: none;
-}
-
-
-
 
 /* Campus Map Styles */
 
@@ -569,3 +540,39 @@ footer {
 .navbar-light .navbar-nav .show>.nav-link {
   color: rgb(228, 0, 135);
 }
+
+
+
+/* report & support Styles - AND -  My Wellbeing */
+
+.campaign-column {
+  padding:15px;
+  float: left;
+  flex-grow: 10;
+  width: 100%;
+  height:500px;
+}
+
+.campaign-container {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  text-decoration: none;
+  
+}
+
+#campaign1 {
+  min-width: 100%;
+  background-image: url('campaign1.jpeg');
+  background-size: 99%;
+  background-position: top;
+  overflow: none;
+}
+
+.containImg {
+    border-style: none;
+    width:282px;
+    height:150px;    
+}
+
