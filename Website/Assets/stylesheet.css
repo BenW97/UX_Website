@@ -317,6 +317,12 @@ section {
   background-position: center;
 }
 
+.thumbnail-image {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
 /* report & support Styles*/
 
 .campaign-column {
