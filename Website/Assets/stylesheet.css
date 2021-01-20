@@ -339,6 +339,7 @@ section {
   padding: 10px;
 }
 
+<<<<<<< HEAD
 #library-select {
   flex-grow: 1;
   min-width: 50px;
@@ -419,6 +420,8 @@ option:focus{
 
 
 
+=======
+>>>>>>> 485d3f2371839edabaa7e0565702967ff69fb477
 
 /* Campus Map Styles */
 
@@ -637,3 +640,59 @@ footer {
 .navbar-light .navbar-nav .show>.nav-link {
   color: rgb(228, 0, 135);
 }
+
+
+
+/* report & support Styles - AND -  My Wellbeing */
+
+.campaign-column {
+  padding:15px;
+  float: left;
+  flex-grow: 10;
+  width: 100%;
+  height:500px;
+}
+
+.campaign-container {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  text-decoration: none;
+  
+}
+
+#campaign1 {
+  min-width: 100%;
+  background-image: url('campaign1.jpeg');
+  background-size: 99%;
+  background-position: top;
+  overflow: none;
+}
+
+.containImg {
+    border-style: none;
+    width:282px;
+    height:150px;    
+}
+
+#container-banner-background-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(wellbeing-background.jpeg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 20px;
+}
+
+#container-banner-background-image2 {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(Report-Support-background.jpeg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 20px;
+}
+
