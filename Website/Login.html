@@ -14,10 +14,6 @@
             <div class="header-content">
             <nav class="navbar navbar-dark bg-dark">
                 <a href="Home.html"><img src="Assets/logo.png" height="40px"></a>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <a href="#"><img src="Assets/search icon.png" height="30px"></a>
-                </form>
             </nav>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,58 +21,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="Home.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Latest_News.html">Latest News</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Students
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="Wellbeing.html">My Wellbeing</a>
-                            <a class="dropdown-item" href="Student_Support.html">Report & Support</a>
-                            <a class="dropdown-item" href="Library.html">Explore Library</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Covid.html">COVID-19</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Staff
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Faculty and Schools
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Arts and Humanities</a>
-                            <a class="dropdown-item" href="#">Medicine and Health Sciences</a>
-                            <a class="dropdown-item" href="#">Science</a>
-                            <a class="dropdown-item" href="#">Social Sciences</a>
-                        </div>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Campus_Map.html">Campus Map</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        More
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Help.html">Help</a>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Login</a>
                     </li>
                   </ul>
                 </div>
@@ -85,11 +31,129 @@
         </header>
 
         <section>
-        <div class="section-container">
-            <div class="section-banner">
+        <div id="map-modal" class="modal-container">
+            <div class="modal-content">
+                <span class="close">&times;</span>
                 <h2 class="banner-text"> Login </h2>
+                <form class="form-inline">
+                    <input class="login-input" placeholder="Username">
+                    <input class="login-input" placeholder="Password">
+                    <a href="Home.html"><div class="login-submit">
+                        <p>Login</p>
+                    </div></a>
+                </form>
             </div>
         </div>
+        <div class="section-container">
+            <div class="section-banner">
+                <h2 class="banner-text"> Welcome to My UEA </h2>
+            </div>
+
+            <div class="row">
+                <div class="column-33">
+                <div class="column-container bg-white">
+                <div class="column-container-text">
+                    <h5>Staff and Students</h5>
+                    <div class="row">
+                        <div class="column-nav-25"><a id="sign-in" href="#"">
+                            <div class="column-nav-container">
+                                <h6> My UEA </h6>
+                            </div>
+                        </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Blackboard </h6>
+                            </div>
+                        </a></div>
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> eVision </h6>
+                            </div>
+                        </a></div>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <div class="column-33">
+                <div class="column-container bg-white">
+                <div class="column-container-text">
+                    <h5>Guests</h5>
+                    <p>If you don't have a UEA account, the following pages on our public website may be helpful.</p>
+                    <div class="row">
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> New Students </h6>
+                            </div>
+                        </a></div>
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Library and Archives </h6>
+                            </div>
+                        </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Information for Visitors </h6>
+                            </div>
+                        </a></div>
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Search the Website </h6>
+                            </div>
+                        </a></div>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <div class="column-33">
+                <div class="column-container bg-white">
+                <div class="column-container-text">
+                    <h5>Academic, Student and NHS Partners</h5>
+                    <p>Including CCN, UoS,  Mountview, NRP Institues and NNUH</p>
+                    <div class="row">
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Login </h6>
+                            </div>
+                        </a></div>
+                        <div class="column-nav-25"><a href="#">
+                            <div class="column-nav-container">
+                                <h6> Register </h6>
+                            </div>
+                        </a></div>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <p style="margin: auto;">If you can't find the information you need please get in touch with your UEA contact.</p>
+
+                <script>
+                    var modal = document.getElementById("map-modal");
+                    var btn = document.getElementById("sign-in");
+                    var span = document.getElementsByClassName("close")[0];
+    
+                    btn.onclick = function() {
+                        modal.style.display = "block";
+                    }
+    
+                    span.onclick = function() {
+                        modal.style.display = "none";
+                    }
+    
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+    
+                </script>
+            </div>
         </section>
 
         <footer class="bg-dark">

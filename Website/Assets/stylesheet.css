@@ -33,7 +33,7 @@ header {
 
 .header-content {
     width: 100%;
-    max-width: 1920px;
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -50,7 +50,7 @@ section {
 .section-container {
     margin: auto;
     position: relative;
-    max-width: 1920px;
+    max-width: 1600px;
 }
 
 .section-banner {
@@ -93,7 +93,6 @@ section {
     float: left;
     position: relative;
     flex-grow: 3.33;
-    min-height:150px;
     min-width: 300px;
     max-width: 33.33%;
     margin-left: auto;
@@ -104,7 +103,6 @@ section {
     padding:15px;
     float: left;
     flex-grow: 5;
-    min-height: 150px;
     min-width: 300px;
     max-width: 50%;
     margin-left: auto;
@@ -115,7 +113,6 @@ section {
     padding:15px;
     float: left;
     flex-grow: 6.66;
-    min-height: 150px;
     min-width: 300px;
     max-width: 66.66%;
     margin-left: auto;
@@ -126,7 +123,6 @@ section {
     padding:15px;
     float: left;
     flex-grow: 7.5;
-    min-height: 150px;
     min-width: 300px;
     max-width: 75%;
     margin-left: auto;
@@ -217,7 +213,6 @@ section {
     position: relative;
     text-decoration: none;
     border: 1px solid #282828;
-    transition: transform .2s;
     
 }
 
@@ -230,6 +225,42 @@ section {
     padding: 10px;
     position: relative;
     justify-items: center;
+    background-color: rgb(228, 0, 135);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.column-header:hover {
+  color: #282828;
+  background-color: #00aef0;
+}
+
+.login-input {
+  flex-grow: 8;
+  min-width: 300px;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.login-submit {
+  flex-grow: 1;
+  min-width: 50px;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(228, 0, 135);
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.login-submit:hover {
+  color: #282828;
+  background-color: #00aef0;
+  text-decoration: none;
 }
 
 /* Home Styles */
@@ -239,7 +270,6 @@ section {
   float: left;
   position: relative;
   flex-grow: 2.5;
-  min-height: 50px;
   min-width: 150px;
   max-width: 25%;
   text-decoration: none;
@@ -297,6 +327,56 @@ section {
   position: relative;
   text-decoration: none;
   
+}
+
+.more-dropbtn {
+  width: 100%;
+  min-width: 50px;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(228, 0, 135);
+  color: #fff;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.more-dropdown {
+  flex-grow: 1;
+  min-width: 50px;
+  padding-right: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.more-dropdown-content {
+  display: none;
+  position: absolute;
+  right: 10px;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.more-dropdown-content a {
+  color: #282828;
+  text-decoration: none;
+  display: block;
+}
+
+.more-dropdown-content a:hover {
+  background-color: #00aef0;
+  color: #282828;
+}
+
+.more-dropdown:hover .more-dropdown-content {
+  display: block;
+}
+
+.more-dropdown:hover .dropbtn {
+  background-color: #00aef0;
+  color: #282828;
 }
 
 #library-twitter {
@@ -597,7 +677,7 @@ footer {
     padding: 0.5rem;
     margin: auto;
     text-align: center;
-    max-width: 1920px;
+    max-width: 1600px;
 }
 
 #topBtn-container {
