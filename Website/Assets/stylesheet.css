@@ -13,6 +13,7 @@ html {
 body {
     background-color: lightgray;
     width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 a:hover {
@@ -23,6 +24,7 @@ a:hover {
   position: relative;
   min-height: 100vh;
 }
+
 
 /* Header Styles */
 
@@ -230,9 +232,16 @@ section {
     transition: 0.2s;
 }
 
-.column-header:hover {
+.column-container .column-header:hover {
   color: #282828;
   background-color: #00aef0;
+}
+
+.read-more {
+  float: right;
+  bottom: 0%;
+  right: 7.5px;
+  position: absolute;
 }
 
 .login-input {
