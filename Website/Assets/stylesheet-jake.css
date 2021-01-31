@@ -8,8 +8,14 @@
     border-radius: 25px;
     background-color: white;
     margin: 5px;
+    margin-bottom: 20px;
     width: auto;
     padding: 0px;
+    min-width: 300px;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
 }
 
 .column-header {
@@ -99,4 +105,4 @@ h3 {
     background-size: cover;
     background-position: left;
     margin-bottom: 20px;
-  }
+}
