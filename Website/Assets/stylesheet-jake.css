@@ -43,16 +43,20 @@ p {
     margin-bottom: 5px;
 }
 
-.column-nav-container {
-    background-color: rgb(228, 0, 135);
+.column-header {
+    background-color: #e40087;
     color: #fff;
-    text-align: center;
-  }
-  
-  .column-nav-container:hover {
+}
+
+.col:hover .column-header {
     color: #282828;
     background-color: #00aef0;
-  }
+}
+  
+.column-nav-container:hover {
+    color: #282828;
+    background-color: #00aef0;
+}
 
 #covid-buttons {
     margin-bottom: 20px;
