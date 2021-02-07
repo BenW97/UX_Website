@@ -1,4 +1,3 @@
-
 /* Page Styles */
 
 * {
@@ -11,7 +10,7 @@ html {
 }
 
 body {
-    background-color: lightgray;
+    background-color: #eaeaea;
     width: 100%;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -209,6 +208,7 @@ section {
 }
 
 .column-container {
+    border: none;
     max-width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -674,6 +674,191 @@ section {
   cursor: pointer;
 }
 
+/* Nabs - report & support Styles - AND -  My Wellbeing */
+
+.column-nav-25-wellbeing {
+  padding: 5px;
+  float: left;
+  position: relative;
+  flex-grow: 2.5;
+  min-width: 150px;
+  max-width: 25%;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+.column-nav-25-report {
+  padding: 5px;
+  float: left;
+  position: relative;
+  flex-grow: 2.5;
+  min-width: 150px;
+  max-width: 25%;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.campaign-column {
+  padding:15px;
+  float: left;
+  flex-grow: 10;
+  width: 100%;
+  height:500px;
+}
+
+.column-container.bg-white {
+    border: none;
+}
+
+.campaign-container {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  text-decoration: none;
+  
+}
+
+#campaign1 {
+  min-width: 100%;
+  background-image: url('campaign1.jpeg');
+  background-size: 99%;
+  background-position: top;
+  overflow: none;
+}
+
+
+
+#container-banner-background-image {
+    width: all;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(wellbeing-background.jpeg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 20px;
+}
+
+#container-banner-background-image2 {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(Report-Support-background.jpeg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 20px;
+}
+
+
+
+/*jakes css*/
+.section-banner {
+    padding-bottom: 10px;
+}
+
+.col {
+    /* Styling for the col class in bootstrap */
+
+    border-radius: 25px;
+    background-color: white;
+    margin: 5px;
+    margin-bottom: 20px;
+    width: auto;
+    padding: 0px;
+    min-width: 300px;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+}
+
+.column-container-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+}
+
+h5 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.column-header {
+    background-color: #e40087;
+    color: #fff;
+}
+
+.col:hover .column-header {
+    color: #282828;
+    background-color: #00aef0;
+}
+  
+.column-nav-container:hover {
+    color: #282828;
+    background-color: #00aef0;
+}
+
+#covid-buttons {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.subheading {
+    margin-bottom: 10px;
+}
+
+.faq-section {
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+#faq-buttons {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.card-header {
+    background-color: #282828;
+    border-bottom: 5px solid rgb(228, 0, 135);
+}
+
+.card-link-collapsed {
+    color: white;
+}
+
+#covid-update {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.thumbnail-image {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#container-banner-image {
+    width: 97.5%;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url('covid-banner.jpeg');
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 20px;
+}
+
+
+
 /* Footer Styles */
 
 footer {
@@ -808,57 +993,4 @@ footer {
 }
 
 
-
-/* report & support Styles - AND -  My Wellbeing */
-
-.campaign-column {
-  padding:15px;
-  float: left;
-  flex-grow: 10;
-  width: 100%;
-  height:500px;
-}
-
-.campaign-container {
-  max-width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  position: relative;
-  text-decoration: none;
-  
-}
-
-#campaign1 {
-  min-width: 100%;
-  background-image: url('campaign1.jpeg');
-  background-size: 99%;
-  background-position: top;
-  overflow: none;
-}
-
-.containImg {
-    border-style: none;
-    width:282px;
-    height:150px;    
-}
-
-#container-banner-background-image {
-    width: 100%;
-    height: 250px;
-    border-radius: 5px;
-    background-image: url(wellbeing-background.jpeg);
-    background-size: cover;
-    background-position: left;
-    margin-bottom: 20px;
-}
-
-#container-banner-background-image2 {
-    width: 100%;
-    height: 250px;
-    border-radius: 5px;
-    background-image: url(Report-Support-background.jpeg);
-    background-size: cover;
-    background-position: left;
-    margin-bottom: 20px;
-}
 
