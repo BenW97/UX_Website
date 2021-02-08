@@ -32,7 +32,7 @@
                         <a class="nav-link" href="Latest_News.html">Latest News</a>
                     </li>
                     <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Students">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Students">
                         Students
                         </a>
                         <div class="dropdown-menu" aria-labelledby="Students dropdown menu">
@@ -45,7 +45,7 @@
                         <a class="nav-link" href="Covid.html">COVID-19</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Staff">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Staff">
                         Staff
                         </a>
                         <div class="dropdown-menu" aria-labelledby="staff dropdown menu">
@@ -54,7 +54,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Faculties and schools">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Faculties and schools">
                         Faculties and Schools
                         </a>
                         <div class="dropdown-menu" aria-labelledby="faculties and schools dropdown menu">
@@ -68,7 +68,7 @@
                         <a class="nav-link" href="Campus_Map.html">Campus Map</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="More">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="More">
                         More
                         </a>
                         <div class="dropdown-menu" aria-labelledby="more dropdown">
@@ -226,7 +226,7 @@
             <div class="section-container">
                 <div class="section-banner">
                     <h2 class="banner-text"> UEA Library </h2>
-                    <a id="map-help" href="#"><img class="help" src="Assets/help icon.png"></a>
+                    <a id="map-help" href="#"><img class="help" alt="Using the library help icon" src="Assets/help icon.png"></a>
                     <h6><a href="Home.html" class="breadcrumbs">Home</a> &lt <a href="Library.html" class="breadcrumbs">Library</a></h6>
                     <h6>Capacity: 33 people out of 500</h6>
                 </div>
@@ -306,12 +306,12 @@
                     <div class="row">
                         <div class="col">
                             <form class="form-inline">
-                                <select id="library-select">
+                                <select id="library-select" aria-label="Library search filter">
                                     <option value="1">Keyword</option>
                                     <option value="2">Title</option>
                                     <option value="3">Author</option>
                                 </select>
-                                <input id="library-searchbar" placeholder="Search">
+                                <input id="library-searchbar" aria-label="library searchbar" placeholder="Search">
                                 <button id="library-submit">Search</button>
                             </form>
                         </div>
@@ -357,13 +357,13 @@
                                 <div class="column-25">
                                     <div class="row">
                                         <div class="col">
-                                            <img src="Assets/book-1.jpg" style="width: 100px; float: middle;">
+                                            <img src="Assets/book-1.jpg" alt="The design of everyday things cover" style="width: 100px; float: middle;">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="column-text-100">
-                                            <a href="" style="float: left;"> UEA Access</a>
-                                            <a href="" style="float: right;"> View Details</a>
+                                            <a href="" style="left: 0;" class="breadcrumbs"> UEA Access</a>
+                                            <a href="" style="right: 0;" class="breadcrumbs"> View Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -383,13 +383,13 @@
                                 <div class="column-25">
                                     <div class="row">
                                         <div class="col">
-                                            <img src="Assets/book-2.jpg" style="width: 100px; float: middle;">
+                                            <img src="Assets/book-2.jpg" alt="Living with complexity cover image" style="width: 100px; float: middle;">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="column-text-100">
-                                            <a href="" style="float: left;"> UEA Access</a>
-                                            <a href="" style="float: right;"> View Details</a>
+                                            <a href="" style="left: 0;" class="breadcrumbs"> UEA Access</a>
+                                            <a href="" style="right: 0;" class="breadcrumbs"> View Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -408,12 +408,12 @@
                                 <div class="column-25">
                                     <div class="row">
                                         <div class="col">
-                                            <img src="Assets/book-3.jpg" style="width:100%; float: middle;">
+                                            <img src="Assets/book-3.jpg" alt="The design of everyday things cover image" style="width: 100px; float: middle;">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="column-text-100">
-                                            <a href="" style="float: middle;"> View Details</a>
+                                            <a href="" style="left: 0;" class="breadcrumbs"> View Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -466,7 +466,7 @@
                         <div class="column-text-100">
                             <h5> By Telephone / Email </h5>
                             <p> Telephone: 01603 592993</p>
-                            <p> Email: <a href="#">lib.helpdesk@uea.ac.uk</a></p>
+                            <p> Email: <a href="#" class="breadcrumbs">lib.helpdesk@uea.ac.uk</a></p>
                             <p> If you need to report noise or disturbance in the Library TEXT 07824301748 and we will look into it for you.</p>
                         </div>
                     </div>
