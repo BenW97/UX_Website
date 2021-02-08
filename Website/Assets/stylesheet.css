@@ -94,7 +94,7 @@ section {
     float: left;
     position: relative;
     flex-grow: 3.33;
-    min-width: 300px;
+    /*min-width: 300px;*/
     max-width: 33.33%;
     margin-left: auto;
     margin-right: auto;
@@ -297,6 +297,7 @@ section {
   transition: 0.2s;
   background-color: #282828;
   color: #fff;
+  text-align: center;
 }
 
 .column-nav-container:hover {
@@ -314,6 +315,7 @@ section {
   transition: 0.2s;
   background-color: rgb(228, 0, 135);
   color: #fff;
+  text-align: center;
 }
 
 .column-secondary-nav-container:hover {
@@ -768,7 +770,7 @@ section {
     margin-bottom: 20px;
     width: auto;
     padding: 0px;
-    min-width: 300px;
+
 }
 
 .col-md-4 {
@@ -994,3 +996,52 @@ footer {
 
 
 
+
+@media screen and (max-width: 992px) {
+  section {
+    padding-bottom: 20%;
+
+  }
+    .column-33{
+      min-width: 20%
+    }
+
+    .column-25{
+      min-width: 20%
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  section {
+    padding-bottom: 50%;
+  }
+
+  .col{
+    min-width: 50% 
+  }
+  
+  .column-33 {
+    min-width: 50%
+    
+  }
+}
+
+@media screen and (max-width: 380px) {
+  section {
+    padding-bottom: 85%;
+  }
+  .column-25{
+      min-width: 50%
+    }
+  
+  .column-33 {
+
+    min-width: 50%
+    
+  }
+
+}
